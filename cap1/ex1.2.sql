@@ -7,4 +7,4 @@ WHERE F.Sal = (
     SELECT MIN(F1.Sal)
     FROM Func F1
     WHERE F1.CodDep = F.CodDep
-)
+);

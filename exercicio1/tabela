@@ -1,4 +1,0 @@
-* **Func** (`Mat`, `NomeFunc`, `Sal`, `CodDep`)[1]
-* **Depto** (`CodDep`, `NomeDep`)[1]
-* **Cliente** (`CodCli`, `NomeCli`, `Tel`, `Endereco`)[2][3]
-* **Fornecedor** (`CodForn`, `NomeForn`, `Tel`, `End`)[2][3]

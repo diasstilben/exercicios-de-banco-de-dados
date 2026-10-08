@@ -6,4 +6,4 @@ WHERE EXISTS(
     SELECT 1 
     FROM Func F
     WHERE F.CodDep = D.CodDep
-)
+);
