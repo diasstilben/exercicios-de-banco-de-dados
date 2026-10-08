@@ -1,6 +1,6 @@
 # 🗄️ Exercícios de Banco de Dados
 
-Este repositório contém exercícios e resoluções. O material abrange desde a revisão da matéria de modelagem de dados até práticas com consultas SQL avançadas.
+Este repositório contém exercícios e resoluções da materia Bancoo de Dados (UERJ - IPRJ). O material abrange desde a revisão da matéria de modelagem de dados até práticas com consultas SQL avançadas.
 
 ## 📚 Tópicos Abordados
 
