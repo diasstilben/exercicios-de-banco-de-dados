@@ -18,7 +18,7 @@ INNER JOIN Depto AS D ON F.CodDep = D.CodDep;
 
 **Agrupamento e Contagem (** **COUNT** **e** **GROUP BY** **):** Escreva uma consulta que exiba o **CodDep** e a **quantidade total de funcionários** cadastrados em cada departamento[1]
 
-SELECT CodDep, COUNT(*) AS TotaldeFuncionarios
+SELECT CodDep, COUNT(*) AS TotalFuncionario
 FROM Func
 GROUP BY CodDep;
 
