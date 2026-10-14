@@ -24,6 +24,8 @@ INNER JOIN Aluno a ON a.CodCurso = c.CodCurso
 GROUP BY c.CodCurso, c.NomeCurso
 HAVING AVG(a.Mensalidade) > (SELECT AVG(a1.Mensalidade) FROM aluno a1) 
 
+
+    
 --LETRA (B)
 SELECT a.NomeAluno, a.Mensalidade, c.CodCurso
 FROM Aluno a     

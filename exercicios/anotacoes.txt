@@ -1,0 +1,8 @@
+Regras De Normalização
+
+1 - Primeira Forma Normal (1FN) - Cada tabela precisa ter uma chave primaria e precisa ter um valor atômico, Por exemplo 2 Telefones para o mesmo cliente, ideal fazer uma tabela apenas para telefone
+2- Segunda Regra Formal (2FN) - 2 chaves compostas, precisam ser dependentes ao mesmo tempo* **Exemplo de problema:** Em uma tabela de vendas onde a chave é `(CodPedido, CodProduto)`, se houver a coluna `NomeProduto`, ela depende apenas do `CodProduto` e não do `CodPedido`.
+* **Solução:** Mover os dados do produto para uma tabela própria de `Produto`.
+3- Terceira Forma Normal (3FN) — Eliminação de Dependências Transitivas * **Exemplo de problema:** Em uma tabela `Aluno`, ter as colunas `CEP`, `Cidade` e `Estado`. A `Cidade` depende do `CEP`, que não é a chave primária da tabela `Aluno`.
+* **Solução:** Criar uma tabela de `Endereço/CEP` e manter na tabela `Aluno` apenas a referência ao `CEP`.
+
